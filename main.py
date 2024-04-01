@@ -93,7 +93,7 @@ def getmovies():
         # print(new_movies)
         new_list.append({"id":new_movies.id,"movie":new_movies.movie_name})
 
-        print(new_list)
+        # print(new_list)
     
     return jsonify(new_list)
 
@@ -110,7 +110,7 @@ def movies_id(movie_id):
 def update(movie_id):
     getmovies = Movieclass.query.get(movie_id)
     a = json.loads(request.data)
-    print(a)
+    # print(a)
 
     movie=a.get("movie")
     getmovies.movie_name=movie
