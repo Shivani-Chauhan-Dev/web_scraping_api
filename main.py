@@ -55,14 +55,7 @@ with open("movies.txt",mode = "w",encoding="utf-8") as file:
 def all_movie():
     data = json.loads(json_data)
 
-    # id = dict.get("new_id")
-    # movie_name=dict.get("movie")
-
-    # entry = Movies(id = id ,movie=movie_name)
-    # db.session.add(entry)
-    # db.session.commit()
-
-    # print(type(data))
+    
     data_list=[]
     for index ,movie in enumerate(data):
 
