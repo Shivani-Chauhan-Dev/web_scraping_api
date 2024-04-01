@@ -1,4 +1,4 @@
 Flask==2.3.2
 flask_sqlalchemy==3.0.5
 gunicorn==21.2.0
-Beautifulsoup==4.12.3
+Beautifulsoup==3.2.1
