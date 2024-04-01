@@ -46,9 +46,9 @@ json_data = json.dumps(movies)
     
 
 
-with open("movies.txt",mode = "w",encoding="utf-8") as file:
-    for movie in movies:
-        file.write(f"{movie}\n")
+# with open("movies.txt",mode = "w",encoding="utf-8") as file:
+#     for movie in movies:
+#         file.write(f"{movie}\n")
 
 
 @app.route("/movies",methods=["POST"])
